@@ -68,6 +68,7 @@ holdbtn.addEventListener("click",()=>{
         document.querySelector(`#current--${idx}`).textContent = 0
 
         document.querySelector(`.player--${idx}`).classList.remove("player--active")
+        checkin(idx)
         idx --
         document.querySelector(`.player--${idx}`).classList.add("player--active")
     }
