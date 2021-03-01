@@ -35,7 +35,7 @@ function addingHighScore(num) {
   bothScore[`${+idx}`].textContent = num;
   bothCurrent[`${+idx}`].textContent = 0;
 
-  if (num >= 20) {
+  if (num >= 30) {
     play("victory");
     bothPlayer[`${+idx}`].classList.remove("player--active");
     bothPlayer[`${+idx}`].classList.add("player--winner");
